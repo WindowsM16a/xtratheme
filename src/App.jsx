@@ -2,13 +2,14 @@
 // import reactLogo from "./assets/react.svg";
 // import viteLogo from "/vite.svg";
 // import "./App.css";
-import HeroSection from "./hero";
+// import HeroSection from "./HeroSection";
+import Adbar from "./adbar";
 
 function App() {
   return (
     <>
-      <HeroSection />
-      <p>hello motherfuckers</p>
+      <Adbar />
+      {/* <HeroSection /> */}
     </>
   );
 }
