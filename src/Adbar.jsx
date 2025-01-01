@@ -14,15 +14,15 @@ const Adbar = () => {
             className=" w-[8rem] lg:w-[15rem] hover: cursor-pointer transition-transform duration-300 ease-in-out transform hover:scale-105"
           />
           {/* message */}
-          <div className=" text-xs md:text-xs">
+          <div className=" text-xs lg:text-base">
             <span className="text-white">
-              Limited time offer, Buy XTRA WordPress theme only $49
+              Limited time offer, Buy XTRA WordPress theme only <b>$49</b>
             </span>
           </div>
 
           {/* Button */}
           <div>
-            <button className="bg-emerald-500 text-white px-6 py-2 rounded-lg hover:bg-emerald-600 transition-colors">
+            <button className="bg-emerald-500 text-white px-6 py-[0.30rem] rounded-lg hover:bg-emerald-600 transition-colors">
               Download XTRA Theme
             </button>
           </div>
