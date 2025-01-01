@@ -16,7 +16,7 @@ const Adbar = () => {
   return (
     <nav className="bg-zinc-800 shadow-sm">
       <div className="max-w-7xl mx-4 lg:mx-10 px-0 lg:px-0 ">
-        <div className="flex w-full items-center justify-between h-10 lg:h-[3.3rem] ">
+        <div className="flex w-full items-center justify-between h-10 xs:h-[3rem] lg:h-[3.3rem] ">
           {/* Logo */}
           <div className="flex-none">
             <img
