@@ -9,6 +9,9 @@ export default {
       fontFamily: {
         asap: ["Asap", "sans-serif"],
       },
+      boxShadow: {
+        '3xl': '0 2px 0 #6f9a37',
+      }
     },
   },
   plugins: [],
