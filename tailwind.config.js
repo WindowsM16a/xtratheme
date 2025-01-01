@@ -11,6 +11,9 @@ export default {
       },
       boxShadow: {
         '3xl': '0 2px 0 #6f9a37',
+      },
+      screens: {
+        'xs': '375px',
       }
     },
   },
