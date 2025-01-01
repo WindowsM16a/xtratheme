@@ -15,8 +15,8 @@ const Adbar = () => {
 
   return (
     <nav className="bg-zinc-800 shadow-sm">
-      <div className="max-w-7xl mx-10 px-0 lg:px-0 ">
-        <div className="flex w-full lg:w-[90rem] items-center justify-between h-10 lg:h-[3.3rem] ">
+      <div className="max-w-7xl mx-4 lg:mx-10 px-0 lg:px-0 ">
+        <div className="flex w-full items-center justify-between h-10 lg:h-[3.3rem] ">
           {/* Logo */}
           <div className="flex-none">
             <img
@@ -27,7 +27,7 @@ const Adbar = () => {
             />
           </div>
           {/* message */}
-          <div className="flex-1 flex justify-center text-xs xs:hidden xs:px-40 lg:text-base">
+          <div className="flex-1 justify-center text-xs hidden md:flex lg:text-base">
             <span className="text-white">
               Limited time offer, Buy XTRA WordPress theme only <b>$49</b>
             </span>
@@ -36,7 +36,7 @@ const Adbar = () => {
           {/* Button */}
           <div className="flex-none lg:mr-[-1rem]">
             <button
-              className="bg-[#82B440] drop-shadow-md shadow-3xl text-zinc-800 px-3 py-[0.15rem] text-xs lg:text-sm lg:px-6 lg:py-[0.30rem]  rounded-md hover:bg-[#75a931] transition-colors"
+              className="bg-[#82B440] drop-shadow-md shadow-3xl text-zinc-800 px-3 py-[0.15rem] text-xs xs:text-[0.5rem] lg:text-sm lg:px-6 lg:py-[0.30rem]  rounded-md hover:bg-[#75a931] transition-colors"
               onClick={handle_download_click}
             >
               Download XTRA Theme
