@@ -27,14 +27,14 @@ const Adbar = () => {
             />
           </div>
           {/* message */}
-          <div className="flex-1 justify-center text-xs hidden md:flex lg:text-base">
+          <div className="flex-1 justify-center text-xs xs:hidden sm:flex md:flex lg:text-base">
             <span className="text-white">
               Limited time offer, Buy XTRA WordPress theme only <b>$49</b>
             </span>
           </div>
 
           {/* Button */}
-          <div className="flex-none lg:mr-[-1rem]">
+          <div className="flex-none lg:mr-[-8rem]">
             <button
               className="bg-[#82B440] drop-shadow-md shadow-3xl text-zinc-800 px-3 py-[0.15rem] text-xs xs:text-[0.5rem] lg:text-sm lg:px-6 lg:py-[0.30rem]  rounded-md hover:bg-[#75a931] transition-colors"
               onClick={handle_download_click}
