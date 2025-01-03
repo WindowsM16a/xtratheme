@@ -23,7 +23,7 @@ const cardData = [
 
 const Cards = ({ logo, title, text }) => {
   return (
-    <div className="centClass min-h-screen xs:gap-2 flex items-center justify-center">
+    <div className="centClass min-h-screen flex items-center justify-center">
       <div className="card bg-black text-white flex-col items-center justify-center border-[3px] border-purple-800 rounded-2xl mt-4 ml-4 px-3 max-w-80 shadow-black shadow-md text-center ">
         <div className="flex justify-center">
           <img
@@ -47,7 +47,7 @@ Cards.propTypes = {
 
 const CardList = () => {
   return (
-    <div className="centClass min-h-screen xs:gap-2 flex items-center justify-center">
+    <div className="centClass min-h-screen flex items-center justify-center">
       <div className="flex flex-col lg:flex-row items-center justify-center">
         <div className="card bg-black text-white flex-col items-center justify-center border-[3px] border-green-800 rounded-2xl mt-4 ml-4 px-3 max-w-80 shadow-black shadow-md text-center ">
           <div className="flex justify-center">
