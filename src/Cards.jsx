@@ -23,7 +23,7 @@ const cardData = [
 
 const Cards = ({ logo, title, text }) => {
   return (
-    <div className="min-h-screen flex place-items-start justify-center">
+    <div className="min-h-[screen] flex items-center justify-center">
       <div className="card bg-black text-white flex-col items-center justify-center border-[3px] border-purple-800 rounded-2xl mt-4 ml-4 px-3 max-w-80 shadow-black shadow-md text-center ">
         <div className="flex justify-center">
           <img
@@ -48,6 +48,17 @@ Cards.propTypes = {
 const CardList = () => {
   return (
     <div className="flex flex-col lg:flex-row items-center justify-center">
+      <div className="card bg-black text-white flex-col items-center justify-center border-[3px] border-green-800 rounded-2xl mt-4 ml-4 px-3 max-w-80 shadow-black shadow-md text-center ">
+        <div className="flex justify-center">
+          <img
+            className="card-image max-w-[60%] h-auto my-4 rounded-[50%]"
+            src={profilePic}
+            alt="profile picture"
+          />
+        </div>
+        <h2 className="card-title text-2xl font-semibold">bet</h2>
+        <p className="card-text px-4 pb-2 mx-4">hii</p>
+      </div>
       {cardData.map((card, index) => (
         <Cards
           key={index}
