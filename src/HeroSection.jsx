@@ -3,7 +3,7 @@
 const HeroSection = () => {
   return (
     <div className="relative min-h-screen bg-white overflow-hidden">
-      {/* Curved overlay */}
+      {/* Curved overlay around the picture */}
       <div className="absolute top-0 right-0 w-2/3 h-full">
         <div
           style={{
@@ -37,7 +37,7 @@ const HeroSection = () => {
             <img
               src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
               alt="Team collaboration"
-              className="rounded-lg shadow-xl w-full object-cover"
+              className="rounded-lg w-full object-cover"
             />
           </div>
         </div>
