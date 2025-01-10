@@ -1,5 +1,5 @@
 import PropTypes from "prop-types";
-import profilePic from "./imgs/koals.jpg";
+import profilePic from "../imgs/koals.jpg";
 
 const cardData = [
   {

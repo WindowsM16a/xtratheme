@@ -1,5 +1,5 @@
 // import React from 'react'
-import envato_market from "./imgs/envato_market.svg";
+import envato_market from "../imgs/envato_market.svg";
 
 const Adbar = () => {
   const handle_logo_click = () => {
