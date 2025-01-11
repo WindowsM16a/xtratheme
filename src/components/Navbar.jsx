@@ -9,7 +9,7 @@ const Navbar = () => {
       <div className="container flex items-center justify-center mt-8">
         {/* logo section */}
         <div>
-          <img src={logo} alt="xtratheme logo" />
+          <img className="w-[9rem]" src={logo} alt="xtratheme logo" />
         </div>
       </div>
     </nav>
