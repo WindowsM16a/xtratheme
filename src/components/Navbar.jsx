@@ -11,6 +11,9 @@ const Navbar = () => {
         <div>
           <img className="w-[9rem]" src={logo} alt="xtratheme logo" />
         </div>
+
+        {/* links section */}
+        <div className="w-full "></div>
       </div>
     </nav>
   );
