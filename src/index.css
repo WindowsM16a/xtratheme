@@ -4,6 +4,10 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+    --btn-gradient-end-rgb: 1, 132, 159;
+}
+
 * {
     font-family: "Asap";
 }

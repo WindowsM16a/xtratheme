@@ -6,6 +6,12 @@ export default {
   ],
   theme: {
     extend: {
+      colors: {
+        'txt-link-grey': '#636363',
+        'txt-link-hover': '#61CE70',
+        'btn-gradient-start': '#55c48b',
+        'btn-gradient-end': '#01849f',
+      },
       containers: {
         center: true,
         padding: {
